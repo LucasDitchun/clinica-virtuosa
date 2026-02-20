@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Virtuosa São Bernardo | Estética de Alto Padrão</title>
+  <meta name="description" content="A melhor clínica estética do Brasil. Transformamos vidas através do realce da beleza natural e protocolos exclusivos de emagrecimento.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <img src="img/logo.png" alt="Virtuosa Clínica Estética" class="header__logo-img">
+      </a>
+      <nav class="header__nav" id="nav">
+        <a href="#sobre" class="header__link">Sobre</a>
+        <a href="#tratamentos" class="header__link">Tratamentos</a>
+        <a href="#resultados" class="header__link">Resultados</a>
+        <a href="#depoimentos" class="header__link">Depoimentos</a>
+        <a href="#contato" class="header__link">Contato</a>
+      </nav>
+      <a href="https://wa.me/5511999999999" class="btn btn--primary header__cta" target="_blank" rel="noopener">Agendar Consulta</a>
+      <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav__content">
+      <a href="#sobre" class="mobile-nav__link">Sobre</a>
+      <a href="#tratamentos" class="mobile-nav__link">Tratamentos</a>
+      <a href="#resultados" class="mobile-nav__link">Resultados</a>
+      <a href="#depoimentos" class="mobile-nav__link">Depoimentos</a>
+      <a href="#contato" class="mobile-nav__link">Contato</a>
+      <a href="https://wa.me/5511999999999" class="btn btn--primary mobile-nav__cta" target="_blank" rel="noopener">Agendar Consulta</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="hero__decorative">Bem-vinda</span>
+        <h1 class="hero__title">Realce sua <span class="text-gradient">beleza natural</span> com quem entende de resultado</h1>
+        <p class="hero__subtitle">Protocolos exclusivos de estética facial, corporal e emagrecimento saudável. Tecnologia de ponta e atendimento humanizado para transformar a sua autoestima.</p>
+        <div class="hero__actions">
+          <a href="https://wa.me/5511999999999" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Agende sua Avaliação Gratuita
+          </a>
+          <a href="#tratamentos" class="btn btn--outline btn--lg">Conheça os Tratamentos</a>
+        </div>
+        <div class="hero__badges">
+          <div class="hero__badge">
+            <span class="hero__badge-number">+5.000</span>
+            <span class="hero__badge-label">Clientes satisfeitas</span>
+          </div>
+          <div class="hero__badge-divider"></div>
+          <div class="hero__badge">
+            <span class="hero__badge-number">+10 anos</span>
+            <span class="hero__badge-label">De experiência</span>
+          </div>
+          <div class="hero__badge-divider"></div>
+          <div class="hero__badge">
+            <span class="hero__badge-number">98%</span>
+            <span class="hero__badge-label">Taxa de satisfação</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__image-wrapper">
+          <div class="ba-slider" id="baSlider">
+            <div class="ba-slider__after">
+              <img src="img/hero-depois.png" alt="Depois do tratamento" draggable="false">
+            </div>
+            <div class="ba-slider__before" id="baBefore">
+              <img src="img/hero-antes.png" alt="Antes do tratamento" draggable="false">
+            </div>
+            <div class="ba-slider__handle" id="baHandle">
+              <div class="ba-slider__line"></div>
+              <div class="ba-slider__button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+              <div class="ba-slider__line"></div>
+            </div>
+            <span class="ba-slider__label ba-slider__label--before">Antes</span>
+            <span class="ba-slider__label ba-slider__label--after">Depois</span>
+          </div>
+          <div class="hero__float-card hero__float-card--1">
+            <div class="hero__float-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#EC008C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div>
+              <span class="hero__float-title">Aprovada por</span>
+              <span class="hero__float-value">+5 mil clientes</span>
+            </div>
+          </div>
+          <div class="hero__float-card hero__float-card--2">
+            <div class="hero__float-icon hero__float-icon--accent">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div>
+              <span class="hero__float-title">Avaliação</span>
+              <span class="hero__float-value">4.9/5 estrelas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof Bar -->
+  <section class="social-proof">
+    <div class="container">
+      <p class="social-proof__text">Reconhecida pelas principais plataformas de saúde e beleza</p>
+      <div class="social-proof__logos">
+        <span class="social-proof__logo">Doctoralia</span>
+        <span class="social-proof__logo">Google 5★</span>
+        <span class="social-proof__logo">ANVISA</span>
+        <span class="social-proof__logo">CRM</span>
+        <span class="social-proof__logo">ABM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="about" id="sobre">
+    <div class="container about__inner">
+      <div class="about__image">
+        <img src="img/about.png" alt="Clínica Virtuosa São Bernardo - Ambiente premium" class="about__img">
+      </div>
+      <div class="about__content">
+        <span class="section-label">Sobre Nós</span>
+        <h2 class="section-title">Excelência em estética com <span class="text-gradient">cuidado que transforma</span></h2>
+        <p class="about__text">A Clínica Virtuosa São Bernardo nasceu da paixão por transformar vidas através da beleza. Com mais de 10 anos de experiência, nossa equipe de especialistas combina as mais avançadas tecnologias com protocolos exclusivos para entregar resultados que superam expectativas.</p>
+        <p class="about__text">Acreditamos que cada pessoa é única, e por isso, cada tratamento é personalizado para realçar a sua beleza natural, respeitando a sua individualidade.</p>
+        <div class="about__features">
+          <div class="about__feature">
+            <div class="about__feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div>
+              <strong>Protocolos Exclusivos</strong>
+              <span>Desenvolvidos pela nossa equipe científica</span>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <strong>Segurança Total</strong>
+              <span>Equipamentos certificados e equipe treinada</span>
+            </div>
+          </div>
+          <div class="about__feature">
+            <div class="about__feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            </div>
+            <div>
+              <strong>Atendimento Humanizado</strong>
+              <span>Você se sente acolhida desde o primeiro contato</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tratamentos -->
+  <section class="treatments" id="tratamentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Nossos Tratamentos</span>
+        <h2 class="section-title">Protocolos pensados para <span class="text-gradient">cada objetivo</span></h2>
+        <p class="section-desc">Do rejuvenescimento facial ao emagrecimento saudável, oferecemos soluções completas e personalizadas.</p>
+      </div>
+      <div class="treatments__grid">
+        <div class="treatment-card">
+          <div class="treatment-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC008C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>
+          </div>
+          <h3 class="treatment-card__title">Harmonização Facial</h3>
+          <p class="treatment-card__desc">Realce os traços do seu rosto com procedimentos minimamente invasivos e resultados naturais.</p>
+          <ul class="treatment-card__list">
+            <li>Preenchimento labial</li>
+            <li>Rinomodelação</li>
+            <li>Bichectomia</li>
+            <li>Toxina botulínica</li>
+          </ul>
+          <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre Harmonização Facial" class="btn btn--ghost" target="_blank" rel="noopener">Saiba mais</a>
+        </div>
+        <div class="treatment-card treatment-card--featured">
+          <span class="treatment-card__badge">Mais procurado</span>
+          <div class="treatment-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC008C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+          </div>
+          <h3 class="treatment-card__title">Emagrecimento Saudável</h3>
+          <p class="treatment-card__desc">Protocolos exclusivos que combinam tecnologia e acompanhamento nutricional para resultados duradouros.</p>
+          <ul class="treatment-card__list">
+            <li>Criolipólise</li>
+            <li>Lipocavitação</li>
+            <li>Protocolo Detox</li>
+            <li>Acompanhamento nutricional</li>
+          </ul>
+          <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre Emagrecimento" class="btn btn--primary" target="_blank" rel="noopener">Saiba mais</a>
+        </div>
+        <div class="treatment-card">
+          <div class="treatment-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC008C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          </div>
+          <h3 class="treatment-card__title">Estética Corporal</h3>
+          <p class="treatment-card__desc">Tratamentos avançados para modelar, firmar e rejuvenescer o corpo com segurança e eficácia.</p>
+          <ul class="treatment-card__list">
+            <li>Drenagem linfática</li>
+            <li>Radiofrequência</li>
+            <li>Carboxiterapia</li>
+            <li>Massagem modeladora</li>
+          </ul>
+          <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre Estética Corporal" class="btn btn--ghost" target="_blank" rel="noopener">Saiba mais</a>
+        </div>
+        <div class="treatment-card">
+          <div class="treatment-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC008C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <h3 class="treatment-card__title">Skincare Premium</h3>
+          <p class="treatment-card__desc">Protocolos faciais personalizados para uma pele saudável, luminosa e rejuvenescida.</p>
+          <ul class="treatment-card__list">
+            <li>Limpeza de pele profunda</li>
+            <li>Peeling químico</li>
+            <li>Microagulhamento</li>
+            <li>LED terapia</li>
+          </ul>
+          <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre Skincare Premium" class="btn btn--ghost" target="_blank" rel="noopener">Saiba mais</a>
+        </div>
+        <div class="treatment-card">
+          <div class="treatment-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC008C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="treatment-card__title">Depilação a Laser</h3>
+          <p class="treatment-card__desc">Tecnologia de última geração para uma pele lisa e livre de pelos com conforto e segurança.</p>
+          <ul class="treatment-card__list">
+            <li>Laser diodo</li>
+            <li>Todos os fototipos</li>
+            <li>Sessões rápidas</li>
+            <li>Resultados definitivos</li>
+          </ul>
+          <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre Depilação a Laser" class="btn btn--ghost" target="_blank" rel="noopener">Saiba mais</a>
+        </div>
+        <div class="treatment-card">
+          <div class="treatment-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#EC008C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3 class="treatment-card__title">Bioestimuladores</h3>
+          <p class="treatment-card__desc">Estimule a produção natural de colágeno para uma pele mais firme, jovem e saudável.</p>
+          <ul class="treatment-card__list">
+            <li>Sculptra</li>
+            <li>Radiesse</li>
+            <li>Profhilo</li>
+            <li>Skinbooster</li>
+          </ul>
+          <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre Bioestimuladores" class="btn btn--ghost" target="_blank" rel="noopener">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resultados / Antes e Depois -->
+  <section class="results" id="resultados">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Resultados Reais</span>
+        <h2 class="section-title">Transformações que <span class="text-gradient">falam por si</span></h2>
+        <p class="section-desc">Confira alguns dos resultados alcançados por nossas clientes com nossos protocolos exclusivos.</p>
+      </div>
+      <div class="results__grid">
+        <div class="result-card">
+          <div class="result-card__photo">
+            <img src="img/harmonizacao.png" alt="Resultado Harmonização Facial">
+          </div>
+          <div class="result-card__info">
+            <h4>Harmonização Facial</h4>
+            <p>Preenchimento labial + Botox | 3 sessões</p>
+          </div>
+        </div>
+        <div class="result-card">
+          <div class="result-card__photo">
+            <img src="img/emagrecimento.png" alt="Resultado Emagrecimento">
+          </div>
+          <div class="result-card__info">
+            <h4>Emagrecimento</h4>
+            <p>Protocolo Detox + Criolipólise | 8 sessões</p>
+          </div>
+        </div>
+        <div class="result-card">
+          <div class="result-card__photo">
+            <img src="img/skincare.png" alt="Resultado Skincare Premium">
+          </div>
+          <div class="result-card__info">
+            <h4>Skincare Premium</h4>
+            <p>Microagulhamento + Peeling | 5 sessões</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-banner__inner">
+      <div class="cta-banner__content">
+        <span class="cta-banner__decorative">Sua transformação</span>
+        <h2 class="cta-banner__title">Comece hoje sua jornada rumo à melhor versão de você</h2>
+        <p class="cta-banner__text">Agende uma avaliação gratuita e descubra o protocolo ideal para os seus objetivos. Nossa equipe está pronta para cuidar de você.</p>
+        <a href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma avaliação gratuita" class="btn btn--white btn--lg" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Fale conosco pelo WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="testimonials" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Depoimentos</span>
+        <h2 class="section-title">O que nossas <span class="text-gradient">clientes dizem</span></h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-card__text">"A Clínica Virtuosa mudou completamente a minha relação com o espelho. O tratamento de harmonização ficou tão natural que todos elogiam, mas ninguém sabe dizer o que mudou. Simplesmente incrível!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">M</div>
+            <div>
+              <strong>Marina S.</strong>
+              <span>Harmonização Facial</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-card__text">"Perdi 12kg com o protocolo de emagrecimento da Virtuosa. O acompanhamento é impecável — nutricionista, estética e muito carinho. Me sinto outra pessoa!"</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">C</div>
+            <div>
+              <strong>Carolina R.</strong>
+              <span>Emagrecimento Saudável</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-card__text">"O ambiente da clínica é simplesmente maravilhoso, parece um spa de luxo. A equipe é super atenciosa e os resultados do tratamento de pele superaram todas as minhas expectativas."</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">F</div>
+            <div>
+              <strong>Fernanda L.</strong>
+              <span>Skincare Premium</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diferenciais -->
+  <section class="differentials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label section-label--light">Por que escolher a Virtuosa</span>
+        <h2 class="section-title section-title--light">Nossa diferença está nos <span class="text-gradient--light">detalhes</span></h2>
+        <p class="section-desc section-desc--light">Compromisso com a excelência em cada aspecto do nosso atendimento.</p>
+      </div>
+      <div class="differentials__grid">
+        <div class="differential-card">
+          <div class="differential-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3>Excelência Reconhecida</h3>
+          <p>Premiada como uma das melhores clínicas estéticas do Brasil, com padrão de qualidade internacional.</p>
+        </div>
+        <div class="differential-card">
+          <div class="differential-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Equipe Especializada</h3>
+          <p>Profissionais altamente qualificados com formação contínua e atualização constante.</p>
+        </div>
+        <div class="differential-card">
+          <div class="differential-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Atendimento Personalizado</h3>
+          <p>Cada cliente recebe um plano de tratamento exclusivo, desenvolvido especialmente para suas necessidades.</p>
+        </div>
+        <div class="differential-card">
+          <div class="differential-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3>Resultados Comprovados</h3>
+          <p>Mais de 5.000 clientes satisfeitas com resultados visíveis e duradouros em nossos tratamentos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact" id="contato">
+    <div class="container">
+      <div class="contact__card">
+        <div class="contact__info">
+          <h3 class="contact__title">Fale conosco</h3>
+          <p class="contact__text">Estamos prontos para receber você e iniciar sua jornada de transformação. Entre em contato para agendar sua consulta ou tirar suas dúvidas.</p>
+          <ul class="contact__list">
+            <li class="contact__item">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact__item-content">
+                <h4>Endereço</h4>
+                <p>Rua Marechal Deodoro, 1234 - Centro<br>São Bernardo do Campo - SP</p>
+              </div>
+            </li>
+            <li class="contact__item">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact__item-content">
+                <h4>Telefone / WhatsApp</h4>
+                <p>(11) 99999-9999</p>
+              </div>
+            </li>
+            <li class="contact__item">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="contact__item-content">
+                <h4>Horário de Funcionamento</h4>
+                <p>Seg a Sex: 8h - 20h<br>Sáb: 8h - 14h</p>
+              </div>
+            </li>
+            <li class="contact__item">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="contact__item-content">
+                <h4>E-mail</h4>
+                <p>contato@clinicavirtuosa.com.br</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="contact__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8!2d-46.5652!3d-23.6938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQxJzM3LjciUyA0NsKwMzMnNTQuNyJX!5e0!3m2!1spt-BR!2sbr!4v1&q=Rua+Marechal+Deodoro,1234,Centro,Sao+Bernardo+do+Campo,SP,Brasil"
+            width="100%"
+            height="100%"
+            style="border:0; display:block;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização Clínica Virtuosa São Bernardo">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="img/logo.png" alt="Virtuosa Clínica Estética" class="footer__logo-img">
+          </div>
+          <p class="footer__tagline">Transformando vidas através do realce da beleza natural e protocolos exclusivos de emagrecimento.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Instagram" class="footer__social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="footer__social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube" class="footer__social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Tratamentos</h4>
+            <a href="#tratamentos">Harmonização Facial</a>
+            <a href="#tratamentos">Emagrecimento</a>
+            <a href="#tratamentos">Estética Corporal</a>
+            <a href="#tratamentos">Skincare Premium</a>
+            <a href="#tratamentos">Depilação a Laser</a>
+          </div>
+          <div class="footer__col">
+            <h4>Institucional</h4>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#resultados">Resultados</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato">Contato</a>
+          </div>
+          <div class="footer__col">
+            <h4>Atendimento</h4>
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="tel:+5511999999999">Telefone</a>
+            <a href="mailto:contato@clinicavirtuosa.com.br">E-mail</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Clínica Virtuosa São Bernardo. Todos os direitos reservados.</p>
+        <div class="footer__legal">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre os tratamentos da Clínica Virtuosa" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Fale conosco no WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
